@@ -1,0 +1,32 @@
+{
+  "categorical_options": {
+    "sex": [
+      "female",
+      "male"
+    ],
+    "smoker": [
+      "no",
+      "yes"
+    ],
+    "region": [
+      "northeast",
+      "northwest",
+      "southeast",
+      "southwest"
+    ]
+  },
+  "numeric_ranges": {
+    "age": [
+      18.0,
+      64.0
+    ],
+    "bmi": [
+      15.96,
+      53.13
+    ],
+    "children": [
+      0.0,
+      5.0
+    ]
+  }
+}
