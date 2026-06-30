@@ -80,7 +80,7 @@ medical-insurance-cost-prediction/
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/<your-username>/medical-insurance-cost-prediction.git
+git clone https://github.com/zakir-maswani/Medical-Insurance-Cost-Predictor.git
 cd medical-insurance-cost-prediction
 ```
 
@@ -141,14 +141,14 @@ Raw input (age, sex, bmi, children, smoker, region)
         │
         ▼
 ┌───────────────────────────────────────────┐
-│              ColumnTransformer             │
-│                                             │
-│  Numeric branch          Categorical branch│
-│  (age, bmi, children)    (sex, smoker,     │
-│  ├─ Median imputation     region)          │
-│                          ├─ Most-frequent  │
-│                            imputation      │
-│                          └─ One-Hot Encode │
+│              ColumnTransformer                    │
+│                                                   │
+│  Numeric branch          Categorical branch.      │
+│  (age, bmi, children)    (sex, smoker,            │
+│  ├─ Median imputation    region)                  │
+│                          ├─ Most-frequent         │
+│                            imputation             │
+│                          └─ One-Hot Encode        │
 └───────────────────────────────────────────┘
         │
         ▼
